@@ -11,42 +11,6 @@
 // Gremlin V1 Setup
 
 / {
-    chosen { zmk,matrix_transform = &five_column_transform; };
-};
-
-/ {
-    behaviors {
-        hold_tap: hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <175>;
-            flavor = "balanced";
-            hold-trigger-on-release;
-            quick-tap-ms = <175>;
-            require-prior-idle-ms = <150>;
-            hold-trigger-key-positions = <10 11 12 17 18 19>;
-        };
-    };
-
-    macros {
-        DblCTRL: DblCTRL {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LCTRL>;
-            label = "DBLCTRL";
-        };
-
-        ReloadWow: ReloadWow {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp FSLH &kp R &kp E &kp L &kp O &kp A &kp D &kp RET>;
-            label = "RELOADWOW";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
