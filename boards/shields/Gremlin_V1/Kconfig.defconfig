@@ -1,0 +1,6 @@
+if SHIELD_GREMLINV1
+
+config ZMK_KEYBOARD_NAME
+    default "GremlinV1"
+
+endif
