@@ -1,0 +1,8 @@
+file_format: "1"
+id: GREMLINV1
+name: RGREMLINV1
+type: shield
+url: https://github.com/AmazingSpanoMan/gremlin_v1/tree/main/boards/shields/gremlinv1
+requires: [pro_micro]
+features:
+  - keys
