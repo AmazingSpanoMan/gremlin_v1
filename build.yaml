@@ -17,3 +17,8 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+board: [ "nice_nano_v2" ]
+shield: [ "GremlinV1" ]
+include:
+  - board: nice_nano_v2
+    shield: gremlinv1
