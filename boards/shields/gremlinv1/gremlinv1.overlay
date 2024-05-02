@@ -10,10 +10,11 @@
         compatible = "zmk,matrix-transform";
         columns = <6>;
         rows = <5>;
+// Actual mapping of the keys and nav switch. 
 // | MX1  | MX2  | MX3  | MX4  | MX5  | NAV |
-// | MX15 | MX16 | MX17 | MX18 | MX19 | NAV | 
+// | MX15 | MX16 | MX17 | MX18 | MX19 | NAV |
 // | MX29 | MX30 | MX31 | MX32 | MX33 | NAV |
-// | MX42 | MX43 | MX44 | MX45 | MX46 | NAV | 
+// | MX42 | MX43 | MX44 | MX45 | MX46 | NAV |
 // |      |      | MX56 | MX57 | MX58 | NAV |
         map = <
 RC(0,0) RC(0,1) RC(0,2) RC(0,3) RC(0,4)
