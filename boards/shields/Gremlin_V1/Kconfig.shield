@@ -1,2 +1,2 @@
 config SHIELD_GREMLINV1
-    def_bool $(shields_list_contains,gremlinV1)
+    def_bool $(shields_list_contains,gremlin_v1)
