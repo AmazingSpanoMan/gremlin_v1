@@ -27,7 +27,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5
 &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
                                           &kp LC(G)     &kp G                &kp W
-                                                                      &kp A  &mo 1  &kp D
+                                                                      &kp A  &kp T  &kp D
                                                                              &kp S
             >;
         };
