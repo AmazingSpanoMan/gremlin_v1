@@ -37,8 +37,8 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5
 &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SPACE
                                           &kp LC(G)     &kp N0               &kp S
-                                                                      &kp A  &kp D             &kp W
-                                                                             &kp LEFT_BRACKET
+                                                                      &kp A  &kp D  &kp LEFT_BRACKET
+                                                                             &kp W
             >;
         };
 
